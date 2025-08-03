@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <!-- Primary Meta Tags -->
+    <title>Uswapping - Conecta con personas según tus intereses</title>
+    <meta name="title" content="Uswapping - Conecta con personas según tus intereses" />
+    <meta name="description"
+        content="Uswapping es la app que te conecta con personas y eventos según tus intereses. Explora hobbies, haz amigos y descubre nuevas experiencias." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://swapweb.netlify.app/" />
+    <meta property="og:title" content="Uswapping - Conecta con personas según tus intereses" />
+    <meta property="og:description"
+        content="Uswapping es la app que te conecta con personas y eventos según tus intereses. Explora hobbies, haz amigos y descubre nuevas experiencias." />
+    <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://swapweb.netlify.app/" />
+    <meta property="twitter:title" content="Uswapping - Conecta con personas según tus intereses" />
+    <meta property="twitter:description"
+        content="Uswapping es la app que te conecta con personas y eventos según tus intereses. Explora hobbies, haz amigos y descubre nuevas experiencias." />
+    <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+
+    <!-- Meta Tags Generated with https://metatags.io -->
+</head>
+
+<body>
+
+    <header class="Header">
+        <div class="Header-logo">Uswapping</div>
+        <button class="Header-abrir" aria-label="abrir">
+            <svg xmlns="http://www.w3.org/2000/svg" height="34px" viewBox="0 -960 960 960" width="34px" fill="#000000">
+                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+            </svg>
+        </button>
+        <nav class="Header-nav">
+            <button class="Header-cerrar" aria-label="cerrar">
+                <svg xmlns="http://www.w3.org/2000/svg" height="34px" viewBox="0 -960 960 960" width="34px"
+                    fill="#000000">
+                    <path
+                        d="m251.33-204.67-46.66-46.66L433.33-480 204.67-708.67l46.66-46.66L480-526.67l228.67-228.66 46.66 46.66L526.67-480l228.66 228.67-46.66 46.66L480-433.33 251.33-204.67Z" />
+                </svg>
+            </button>
+            <ul class="Header-ul">
+                <li class="Header-li"><a href="#inicio" title="inicio">Inicio</a></li>
+                <li class="Header-li"><a href="#caracteristicas" title="caracteristicas">Caracteristicas</a></li>
+                <li class="Header-li"><a href="#funcionamiento" title="como funciona">Comó funciona</a></li>
+                <li class="Header-li">
+                    <div class="Header-contacto">
+                        <a href="#contacto" class="Header-contact-a" title="contacto">Contáctanos</a>
+                    </div>
+
+                </li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="inicio" class="Section Section-inicio">
+            <div class="Inicio-intro">
+                <div class="Inicio-container">
+                    <h1 class="Inicio-h1">Aprende lo que quieras,<br>enseña lo que sabes.</h1>
+                    <h2 class="Inicio-h2">Conecta con personas reales, comparte tus conocimientos y aprende nuevas
+                        habilidades sin gastar dinero.</h2>
+                    <div class="Inicio-buttons">
+                        <a href="https://play.google.com/store/apps/details?id=TU_ID_DE_APP" target="_blank"
+                            rel="noreferrer" class="Inicio-button">
+                            <img src="assets/playstore.svg" alt="Play Store" class="Inicio-button-img">
+                            <span>Google Play</span>
+                        </a>
+
+                        <a href="https://apps.apple.com/app/idTU_ID_DE_APP" target="_blank" rel="noreferrer"
+                            class="Inicio-button Inicio-button-appstore">
+                            <img src="assets/appstore.svg" alt="App Store" class="Inicio-button-img">
+                            <span>App Store</span>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="Inicio-image-container">
+                    <img src="assets/texting.svg" alt="Hero img">
+                </div>
+
+            </div>
+
+
+            <div class="Inicio-actividades">
+                <button class="Inicio-actividades-prev">
+                    <img src="assets/arrow_back.svg" alt="Anterior">
+                </button>
+                <div class="Inicio-actividades-slider">
+
+
+                    <div class="Inicio-actividad">
+                        <img src="assets/music.svg" alt="Interes Musical" class="Inicio-actividad-img">
+                        <h3 class="Inicio-actividad-h3">Música</h3>
+
+                    </div>
+                    <div class="Inicio-actividad">
+                        <img src="assets/gym.svg" alt="Interes deportivo" class="Inicio-actividad-img">
+                        <h3 class="Inicio-actividad-h3">GYM</h3>
+
+                    </div>
+                    <div class="Inicio-actividad">
+                        <img src="assets/videogame.svg" alt="Interes Videojuegos" class="Inicio-actividad-img">
+                        <h3 class="Inicio-actividad-h3">Videojuegos</h3>
+
+                    </div>
+                    <div class="Inicio-actividad">
+                        <img src="assets/adventure.svg" alt="Interes Aventura" class="Inicio-actividad-img">
+                        <h3 class="Inicio-actividad-h3">Aventura</h3>
+
+                    </div>
+                    <div class="Inicio-actividad">
+                        <img src="assets/math.svg" alt="Interes Matematicas" class="Inicio-actividad-img">
+                        <h3 class="Inicio-actividad-h3">Matemáticas</h3>
+
+                    </div>
+                    <div class="Inicio-actividad">
+                        <img src="assets/sports.svg" alt="Interes Deportes" class="Inicio-actividad-img">
+                        <h3 class="Inicio-actividad-h3">Deportes</h3>
+
+                    </div>
+                    <div class="Inicio-actividad">
+                        <img src="assets/travel.svg" alt="Interes en viajes" class="Inicio-actividad-img">
+                        <h3 class="Inicio-actividad-h3">Viajar</h3>
+
+                    </div>
+                    <div class="Inicio-actividad">
+                        <img src="assets/cinema.svg" alt="Interes en Cine" class="Inicio-actividad-img">
+                        <h3 class="Inicio-actividad-h3">Cine</h3>
+
+                    </div>
+                    <div class="Inicio-actividad">
+                        <img src="assets/camera.svg" alt="Interes en fotografia" class="Inicio-actividad-img">
+                        <h3 class="Inicio-actividad-h3">Fotografía</h3>
+
+                    </div>
+                    <div class="Inicio-actividad">
+                        <img src="assets/cooking.svg" alt="Interes en cocina" class="Inicio-actividad-img">
+                        <h3 class="Inicio-actividad-h3">Cocina</h3>
+
+                    </div>
+                    <div class="Inicio-actividad">
+                        <img src="assets/beer.svg" alt="Interes en salidas" class="Inicio-actividad-img">
+                        <h3 class="Inicio-actividad-h3">Salidas Nocturnas</h3>
+
+                    </div>
+                    <div class="Inicio-actividad">
+                        <img src="assets/code.svg" alt="Interes en programar" class="Inicio-actividad-img"
+                            loading="lazy">
+                        <h3 class="Inicio-actividad-h3">Programar</h3>
+
+                    </div>
+                    <div class="Inicio-actividad">
+                        <img src="assets/extreme.svg" alt="Interes en lo extremo" class="Inicio-actividad-img"
+                            loading="lazy">
+                        <h3 class="Inicio-actividad-h3">Extremo</h3>
+
+                    </div>
+                    <div class="Inicio-actividad">
+                        <img src="assets/read.svg" alt="Interes en leer" class="Inicio-actividad-img" loading="lazy">
+                        <h3 class="Inicio-actividad-h3">Leer</h3>
+
+                    </div>
+                    <div class="Inicio-actividad">
+                        <img src="assets/pizza.svg" alt="Interes en comer fuera" class="Inicio-actividad-img"
+                            loading="lazy">
+                        <h3 class="Inicio-actividad-h3">Comer fuera</h3>
+
+                    </div>
+                    <div class="Inicio-actividad">
+                        <img src="assets/art.svg" alt="Interes en el arte" class="Inicio-actividad-img" loading="lazy">
+                        <h3 class="Inicio-actividad-h3">Arte</h3>
+
+                    </div>
+                    <div class="Inicio-actividad">
+                        <img src="assets/games.svg" alt="Interes en juegos de mesa" class="Inicio-actividad-img"
+                            loading="lazy">
+                        <h3 class="Inicio-actividad-h3">Juegos de mesa</h3>
+
+                    </div>
+                    <div class="Inicio-actividad">
+                        <img src="assets/yoga.svg" alt="Interes en yoga" class="Inicio-actividad-img" loading="lazy">
+                        <h3 class="Inicio-actividad-h3">Yoga</h3>
+
+                    </div>
+
+                </div>
+                <button class="Inicio-actividades-next">
+                    <img src="assets/arrow_forward.svg" alt="Siguiente">
+                </button>
+
+            </div>
+        </section>
+
+        <section id="caracteristicas" class="Section Section-caracteristicas">
+            <h2 class="Section-caracteristicas-h2">Nuestras Caracteristicas</h2>
+            <div class="Section-caracteristicas-container">
+                <div class="Section-caracteristicas-cards">
+                    <div class="Section-caracteristicas-card ">
+                        <div class="Section-caracteristicas-card-svg">
+                            <img src="assets/exchange.svg" alt="Intercambio de conocimientos"
+                                class="Section-caracteristicas-card-svg-img" loading="lazy">
+                        </div>
+                        <div class="Section-caracteristicas-card-info">
+                            <h3 class="Section-caracteristicas-card-h3">Intercambio de conocimientos</h3>
+                            <p class="Section-caracteristicas-card-p">Conecta con personas que quieren aprender lo que
+                                tú sabes y enséñales mientras tú aprendes algo nuevo de ellas.</p>
+                        </div>
+                    </div>
+                    <div class="Section-caracteristicas-card">
+                        <div class="Section-caracteristicas-card-svg">
+                            <img src="assets/chat.svg" alt="Coneccion instantanea"
+                                class="Section-caracteristicas-card-svg-img" loading="lazy">
+                        </div>
+                        <div class="Section-caracteristicas-card-info">
+                            <h3 class="Section-caracteristicas-card-h3">Conexiones reales</h3>
+                            <p class="Section-caracteristicas-card-p">Interactúa con personas con intereses similares,
+                                crea conexiones significativas y amplía tu red de conocimiento.</p>
+                        </div>
+                    </div>
+                    <div class="Section-caracteristicas-card">
+                        <div class="Section-caracteristicas-card-svg">
+                            <img src="assets/customize.svg" alt="Categoriass personalizadas"
+                                class="Section-caracteristicas-card-svg-img" loading="lazy">
+                        </div>
+                        <div class="Section-caracteristicas-card-info">
+                            <h3 class="Section-caracteristicas-card-h3">Categorías personalizadas</h3>
+                            <p class="Section-caracteristicas-card-p">Elige lo que quieres aprender o enseñar entre más
+                                de 20 categorías como arte, idiomas, matemáticas, cocina o programación.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="Section-caracteristicas-imagen">
+                    <img src="assets/caracteristica-app.webp" alt="Caracteristicas de la app"
+                        class="Section-caracteristicas-imagen-principal" loading="lazy">
+                </div>
+
+                <div class="Section-caracteristicas-cards Section-caracteristicas-cards-second">
+                    <div class="Section-caracteristicas-card ">
+                        <div class="Section-caracteristicas-card-svg">
+                            <img src="assets/development.svg" alt="Match por intereses"
+                                class="Section-caracteristicas-card-svg-img" loading="lazy">
+                        </div>
+                        <div class="Section-caracteristicas-card-info">
+                            <h3 class="Section-caracteristicas-card-h3">Sistema de match por intereses</h3>
+                            <p class="Section-caracteristicas-card-p">Encuentra usuarios compatibles de forma rápida
+                                según lo que sabes y lo que estás buscando aprender.</p>
+                        </div>
+                    </div>
+                    <div class="Section-caracteristicas-card ">
+                        <div class="Section-caracteristicas-card-svg">
+                            <img src="assets/learn.svg" alt="Categoriass personalizadas"
+                                class="Section-caracteristicas-card-svg-img" loading="lazy">
+                        </div>
+                        <div class="Section-caracteristicas-card-info">
+                            <h3 class="Section-caracteristicas-card-h3">Chats para aprender en tiempo real</h3>
+                            <p class="Section-caracteristicas-card-p">Habla, pregunta y enseña directamente desde la app
+                                con un sistema de mensajería simple y efectivo.</p>
+                        </div>
+                    </div>
+                    <div class="Section-caracteristicas-card ">
+                        <div class="Section-caracteristicas-card-svg">
+                            <img src="assets/profile.svg" alt="Categoriass personalizadas"
+                                class="Section-caracteristicas-card-svg-img" loading="lazy">
+                        </div>
+                        <div class="Section-caracteristicas-card-info">
+                            <h3 class="Section-caracteristicas-card-h3">Tu perfil, tus habilidades</h3>
+                            <p class="Section-caracteristicas-card-p">Muestra lo que sabes, lo que estás aprendiendo y
+                                lo que puedes enseñar con un perfil que evoluciona contigo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+        <section id="funcionamiento" class="Section Section-funcionamiento">
+            <h2 class="Section-funcionamiento-h2">Cómo funciona</h2>
+            <div class="Section-funcionamiento-imagen-pasos">
+
+                <div class="Section-funcionamiento-image-container">
+                    <img src="./assets/registro.webp" alt="Registro" class="Section-funcionamiento-image"
+                        loading="lazy">
+
+                </div>
+
+                <div class="Section-funcionamiento-container">
+
+                    <div class="Section-funcionamiento-card Section-funcionamiento-card-active" id="registro">
+                        <h3 class="Section-funcionamiento-card-h3">1. Regístrate</h3>
+                        <p class="Section-funcionamiento-card-p">Crea tu cuenta de forma rápida y sencilla.</p>
+                    </div>
+                    <div class="Section-funcionamiento-card" id="completar-perfil">
+                        <h3 class="Section-funcionamiento-card-h3">2. Completa tu perfil</h3>
+                        <p class="Section-funcionamiento-card-p">Agrega tus habilidades y lo que quieres aprender.</p>
+                    </div>
+                    <div class="Section-funcionamiento-card" id="buscar-companero">
+                        <h3 class="Section-funcionamiento-card-h3">3. Encuentra un compañero</h3>
+                        <p class="Section-funcionamiento-card-p">Encuentra a alguien que comparta tus intereses.</p>
+                    </div>
+                    <div class="Section-funcionamiento-card" id="iniciar-conversacion">
+                        <h3 class="Section-funcionamiento-card-h3">4. Comienza a aprender</h3>
+                        <p class="Section-funcionamiento-card-p">Inicia una conversación, comparte conocimientos.</p>
+                    </div>
+                    <div class="Section-funcionamiento-card" id="compartir-experiencias">
+                        <h3 class="Section-funcionamiento-card-h3">5. Comparte momentos</h3>
+                        <p class="Section-funcionamiento-card-p">Deja comentarios y recomendaciones.</p>
+                    </div>
+                    <div class="Section-funcionamiento-card" id="disfrutar">
+                        <h3 class="Section-funcionamiento-card-h3">6. Disfruta de la experiencia</h3>
+                        <p class="Section-funcionamiento-card-p">Aprende y enseña de forma divertida y sin presiones.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="contacto" class="Section Section-contacto">
+            <div class="Section-contacto-intro">
+                <h2 class="Section-contacto-h2">Contáctanos</h2>
+                <h3 class="Section-contacto-h3">Si tienes alguna pregunta, sugerencia o comentario, no dudes en ponerte
+                    en contacto con nosotros.</h3>
+                <p class="Section-contacto-p">Estamos aquí para ayudarte y mejorar tu experiencia con Uswapping.</p>
+
+            </div>
+
+            <form action="https://formspree.io/f/mqaqvjyk" method="POST" class="Section-contacto-form">
+                <div class="Section-contacto-form-nombreCompleto">
+                    <input type="text" name="nombre" placeholder="Nombre" class="Section-contacto-nombre" required>
+                    <input type="text" name="apellido" placeholder="Apellido" class="Section-contacto-apellido"
+                        required>
+                </div>
+                <div class="Section-contacto-form-info">
+                    <input type="email" name="email" placeholder="Correo electrónico" class="Section-contacto-email"
+                        required>
+                    <input type="text" name="asunto" placeholder="Asunto" class="Section-contacto-asunto" required>
+                    <textarea name="mensaje" placeholder="Mensaje" class="Section-contacto-mensaje" required></textarea>
+                </div>
+
+                <button class="bt" id="bt" type="submit">
+                    <span class="msg" id="msg"></span>
+                    ENVIAR
+                </button>
+            </form>
+
+        </section>
+
+
+
+    </main>
+
+    <footer class="Footer">
+        <div class="Footer-logo">
+            <img src="./assets/icono-footter.svg" alt="Icono de Uswapping" class="Footer-logo-img" loading="lazy">
+            <div class="Footer-logo-texto">Uswapping</div>
+        </div>
+
+        <div class="Footer-social">
+            <ul class="Footer-social-ul">
+                <li class="Footer-social-li">
+                    <a href="https://www.facebook.com/" title="Facebook" target="_blank" rel="noreferrer">
+                        <img src="assets/facebook.svg" alt="facebook" class="Footer-social-media" loading="lazy">
+                    </a>
+                </li>
+                <li class="Footer-social-li">
+                    <a href="https://www.tiktok.com/" title="TikTok" target="_blank" rel="noreferrer">
+                        <img src="assets/tiktok.svg" alt="TikTok" class="Footer-social-media Footer-social-media-tiktok"
+                            loading="lazy">
+                    </a>
+
+                </li>
+                <li class="Footer-social-li">
+                    <a href="https://www.youtube.com/" title="youtube" target="_blank" rel="noreferrer">
+                        <img src="assets/youtube.svg" alt="youtube" class="Footer-social-media" loading="lazy">
+                    </a>
+
+                </li>
+                <li class="Footer-social-li">
+                    <a href="https://www.instagram.com/" title="instagram" target="_blank" rel="noreferrer">
+                        <img src="assets/insta.svg" alt="Instagram" class="Footer-social-media" loading="lazy">
+                    </a>
+
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="Footer-copyright-enlaces">
+            <div class="Footer-copyright">
+                <p class="Footer-copyright-p">© 2025 Uswapping. Todos los derechos reservados.</p>
+            </div>
+            <div class="Footer-enlaces">
+                <h3 class="Footer-enlaces-h3">Enlaces de interés</h3>
+                <ul class="Footer-enlaces-ul">
+                    <li class="Footer-enlaces-li"><a href="#inicio" title="Inicio">Inicio</a></li>
+                    <li class="Footer-enlaces-li"><a href="#caracteristicas" title="Caracteristicas">Caracteristicas</a>
+                    </li>
+                    <li class="Footer-enlaces-li"><a href="#funcionamiento" title="Como funciona">Como Funciona</a></li>
+                    <li class="Footer-enlaces-li"><a href="#contacto" title="Contacto">Contacto</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+
+
+
+    </footer>
+
+</body>
+
+</html>
